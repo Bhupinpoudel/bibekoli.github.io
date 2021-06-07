@@ -1,0 +1,25 @@
+section {
+  margin-top: 10px;
+  border-radius: 10px;
+  background: white;
+}
+
+section div {
+  padding: 10px;
+}
+
+img {
+  padding: 0;
+  margin: 15px;
+  width: calc(100% - 30px);
+  border: 1px solid;
+}
+
+li {
+  list-style: none;
+}
+
+section a {
+  font-weight: bold;
+  color: #ff1234;
+}
