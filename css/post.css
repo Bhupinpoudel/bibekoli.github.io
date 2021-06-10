@@ -1,7 +1,17 @@
-section {
-  margin-top: 10px;
+section .cntnt{
+  margin-top: 15px;
   border-radius: 10px;
   background: white;
+}
+
+@media (min-width: 768px) {
+  section .cntnt{
+    margin-left: 15px;
+  }
+  .mad {
+    width: 100%;
+    margin-left: 15px;
+  }
 }
 
 section div {
@@ -26,4 +36,8 @@ section a {
 
 .post-title {
   padding: 5px 10px 0 10px;
+}
+
+.mad {
+  margin-top: 15px;
 }
