@@ -8,7 +8,7 @@ section div {
   padding: 10px;
 }
 
-img {
+section img {
   padding: 0;
   margin: 15px;
   width: calc(100% - 30px);
@@ -22,4 +22,8 @@ li {
 section a {
   font-weight: bold;
   color: #ff1234;
+}
+
+.post-title {
+  padding: 5px 10px 0 10px;
 }

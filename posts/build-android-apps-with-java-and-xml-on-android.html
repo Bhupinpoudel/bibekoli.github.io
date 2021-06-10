@@ -2,240 +2,197 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>BibTech</title>
   <meta name="viewport" content="width=device-width">
+  <meta name="title" content="BibTech: Useful Tutorials">
+  <meta name="description" content="In this blog, you can find information and tutorials regarding mobile apps, tricks, programming, etc.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://blog.bivekoli.com.np/">
+  <meta property="og:title" content="BibTech: Useful Tutorials">
+  <meta property="og:image" content="https://blog.bivekoli.com.np/og.png">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://blog.bivekoli.com.np/">
+  <meta property="twitter:title" content="BibTech: Useful Tutorials">
+  <meta property="twitter:image" content="https://blog.bivekoli.com.np/og.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="/css/index.css" />
   <link rel="stylesheet" href="/css/post.css" />
 </head>
 <body>
   <header class="header">
-    <a href="" class="logo">BibTech</a>
+    <a href="/" class="logo">BibTech</a>
     <input class="menu-btn" type="checkbox" id="menu-btn" />
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a href="/index.html"><span class="active">Home</span></a></li>
+      <li><a href="/"><span class="active">Home</span></a></li>
       <li><a href="/about.html"><span>About</span></a></li>
       <li><a href="/contact.html"><span>Contact</span></a></li>
+      <li><a href="/offers.html"><span>Offers</span></a></li>
       <li><a href="/policy.html"><span>Privacy & Policy</span></a></li>
-      <li><a href="/trending.html"><span>Trending</span></a></li>
     </ul>
   </header>
   <div class="body">
     <section>
+      <h1 class="post-title">Build Android Apps with Java and XML using Android Phone</h1>
+      <div>
+        <img class="cover" src="aide/Build Android Apps On Android.jpg" alt="Build Android Apps On Android Device With AIDE">
+      </div>
       
-<div>
-  <img class="cover" src="aide/Build Android Apps On Android.jpg" alt="Build Android Apps On Android Device With AIDE">
-</div>
-
-<div>
-  <p><b>Yes!</b> You can build awesome Android apps on your Android device using <b>Java</b> and <b>XML</b>. To build the apps, you need to have good knowledge of Java, XML and Android app development. If you are beginner to Android app development, then you can practice building Android apps. You just need is the good knowledge of Java Programming.</p>
-  <p>For building Android apps on mobile phone, there is a free and popular Android IDE called <b>AIDE</b>. It is a free and offline IDE designed to code on Android Device. AIDE can be used for building Java Console Applications, C & C++ Console Applications, Android Apps with Java and XML, Native Android Apps with Java, C++ and XML and many more. If you start building apps on AIDE, the code and skills of AIDE is not limited within this app. You can use the same concept and knowledge on Android Studio which is the official IDE for Android app development that is available on PC. You can run the projects made with AIDE on Android Studio and vice versa without any problems.</p>
-  <p>In this tutorial, we are going to use AIDE for building Android apps with Java and XML.</p>
-</div>
-
-<br>
-
-<div>
-  <h2>Getting Started</h2>
-  <p>In order to start building Android apps on Android device, first of all, you need to download and install AIDE app. <a href="https://play.google.com/store/apps/details?id=com.aide.ui" target="_blank">Click here</a> to go to Play Store and install AIDE.<br>AIDE also have a premium version which include advanced features like Debugger, APP UI Designer, No Ads, Premium features, etc. <a href="https://dlandroid.com/aide-ide-for-android-java-c-apk" target="_blank">Click here</a> to download the latest AIDE Premium mod APK for free or you can purchase these features within the AIDE app.</p>
-</div>
-
-<br>
-
-<div id="create-new">
-  <h2>Creating New Android Project</h2>
-  <p>After the app gets installed successfully on your device, open the app. If you are using the app for the first time, you will see this kind of interface. Click on <b>For Experts</b>.<br><img class="image" src="aide/Code For Experts.jpg" alt="AIDE Code For Experts"><br>Or, if you have opened the app before, you may not see this window. So, if you are in the learning mode, just press <b>&#8592;</b> button on the title bar. Or, if you are already on the <b>Experts</b> mode, click on <b>Create New Project</b>.<br><img class="image" src="aide/Create New Project.jpg" alt="Create New Project In AIDE"></p>
-  <p>After clicking on <b>Create New Project</b>, click on <b>New Android App.</b>.<br><img class="image" src="aide/Create New Android App Project.jpg" alt="Create New Android App Project In AIDE"></p>
-  <p>You need to enter the app information i.e. <b>App Name</b> and <b>Package Name</b>. App Name is the name of your Android app. Package Name is the unique name for Android app.<br><img class="image" src="aide/Project Info.jpg" alt="Enter App Name And Package Name"><br>After entering the app name and package name, click on <b>CREATE</b>. Your new Android project will be created successfully on <b>AppProjects</b> folder of your sdcard.</p>
-</div>
-
-<br>
-
-<div>
-  <h2>Important Files To Work On</h2>
-  <p>While building Android apps on AIDE, you need to manage multiple files at a time. Some of them are explained here.</p>
-  <ol>
-    <li><h3>XML Files</h3>XML files in Android Apps are used to represent the important information about the app. There will be number of XML files in the Android app. Some of them are layouts, strings, styles, colors, manifest, etc. Layout XML files represent the User Interface of the app. We define buttons, texts, input fields, checkbox, etc. in the Layout XML file. We can also define the position of a widget in the Layout XML file. Strings XML file represent all the words and sentences used in the app. Colors XML represent useful color codes. Style XML represent app theme and styles. Manifest XML file represents all the information of our app at one file. There are more other XML files which couldn't be explained here as the tutorial is going to be very long.<br><img class="image" src="aide/Blank XML File.jpg" alt="XML File In AIDE"></li>
-    <li><h3>Java Files</h3>Java File is used to set the behaviour of your Android app. If you have defined a button in your XML file, you can set an action when the button is clicked. Similar to HTML and CSS is used to design the page look and JavaScript is used set behaviour of your web page, XML is used for designing your app and Java is used to set behaviour of your app and widgets.<br><img class="image" src="aide/Blank Java File.jpg" alt="Java File In AIDE"></li>
-    <li id="a-m"><h3>AndroidManifest.xml File</h3>AndroidManifest.xml file contains the information about your app like app name, package name, version name and version code, app icon, app theme, permissions used by the app, activities, services, broadcasts, fragments, etc. In other words, we can say AndroidManifest is the file which stores all the information of our app in one file.<br><img class="image" src="aide/Android Manifest File.jpg" alt="Android Manifest XML File In Android App"></li>
-    <li id="b-g"><h3>Build.gradle File</h3>If your Android app uses external libraries, you need to add them in the build.gradle file in order to use the library functions. There will be two build.gradle files in Android app project i.e. Project Level and App Level Grade Files. Project Level Gradle is located on the root directory of Android App Project and App Level gradle file is located on <b>/app</b> directory of your Android app project. We use this while building advanced apps or if you are advanced app developer. If you are just beginner or started practicing Android app development, you don't need to touch this file.<br><img class="image" src="aide/Build Dot Gradle File.jpg" alt="Build Dot Gradle File"></li>
-  </ol>
-</div>
-
-<br>
-
-<div>
-  <h2>Building Your First App</h2>
-  <p>After having knowledge of important files while building Android apps, you can start building your first Android app on your phone. So, if you haven't created new project, <a href="#create-new">create</a> it now. After creating a project, open <b>main.xml</b> file to design the User Interface of the app.<br>For demo, I will add a <b>button</b> and give it <b>text</b> and <b>id</b> values as you can see in the image below.<br><img class="image" src="aide/XML UI Designer.jpg" alt="XML APP UI Designer In AIDE"></p>
-  <p>After the UI is ready, now the time comes for main coding i.e. interacting with the XML layout using Java. So, open <b>MainActivity.java</b> file.<br><img class="image" src="aide/New Java File.jpg" alt="New Java File In AIDE"></p>
-  <p>In the Java code, we need to declare the widgets used on the app activity(line 11). After declaring the widget, initialize the widget using the id defined in the main.xml(line 17). After initializing, we will set OnClickListener and display a toast message on clicking a button(line 19 - 28).</p>
-</div>
-
-<br>
-
-<div>
-  <h2>Building APK From Code</h2>
-  <p>You can build APK after you have finished coding your app. Your app must not contain any errors to build APK. This IDE provides feature of real-time error checking, so it will display errors as you type. You can check the number of errors on the notification panel. You may also get solution for your the error when you long press on the error message. So, once your code is free from errors, you are ready to build APK. To build APK, press the &#9654; button and it will start building APK of your code. It will take some time to build APK depending on the  code size and number of external libraries used(if any).</p>
-  <p>Once APK is build successfully, you can install it on your phone. On the demo, we have built an app with a button.<br><img class="image" src="aide/Built App.jpg" alt="APK Built With AIDE"></p>
-  <p>While clicking the button, it should display a toast message. As, you can see in the screenshot, it displayed a toast message. Our DemoApp worked successfully.<br><img class="image" src="aide/App Click Button.jpg" alt="Click The Button And See A Toast Message"></p>
-  <p>You can start building your own apps like this. If you are beginner in Android app development, you need a lot of resources to learn for building apps. You can find a lot of tutorial videos on YouTube, articles on the internet, sample programs source codes, e-books, online courses, etc. to learn Android app development. Take any one of them and start learning Android development right away.</p>
-</div>
-
-<br>
-
-<div>
-  <h2>Using A Library On Your App</h2>
-  <p>If you want to use any external library like play-services, admob, firebase, recycleview or any others, you need to add it in your project. To add it on your app, come back to <b>/AppProjects/{AppName}/app</b> and click on <b>Add to Project...</b>.<img class="image" src="aide/Build Dot Gradle File.jpg" alt="Build Dot Gradle File"></p>
-  <p>As I have explained above, If you are a beginner or you don't use any external library on your app, you don't need to touch the <b><a href="#b-g">build.gradle</a></b> file. So, just understand what is it and when to use this file.</p>
-</div>
-
-<br>
-
-<div>
-  <h2>AIDE Helper App</h2>
-  <p>AIDE Helper is a small tool which is very useful while building apps with AIDE. This tool can be used to create new project, add activity and permission to an app. It takes a lot of time to create a layout file with activity file and add it to manifest file and also it is difficult to add permission in manifest file without hint or autocomplete. So, in this case, AIDE Helper is very helpful for doing these actions. <a href="https://play.google.com/store/apps/details?id=com.vicky.aidehelper" target="_blank">Click here</a> to download AIDE Helper app from Play Store. Below is the detailed instruction on how to use AIDE Helper App.</p>
-  <ol>
-    <li><h3>Creating A New Project</h3>To create a new Android project in AIDE, press the <b>+</b> button on the screen.<img class="image" src="aide/AIDE Helper New App Project Created.jpg" alt="New App Project Successfully Created In AIDE"><br>You can open the new project with AIDE and edit the codes.</li>
-    <li><h3>Adding New Layout and Activity</h3>If you want to add a new layout and activity on your app, it will consume a lot of time to do it manually. So, AIDE Helper becomes very useful for doing this as can do this in very less time.<br>To add a new Activity on your app, follow these steps.<ol><li>Open <b>AIDE Helper</b> app.</li><li>Select the app on which you want to add new layout and activity.<br></li><li>Click on <b>Add Activity</b>.<br><img class="image" src="aide/AIDE Helper Add Activity.jpg" alt="Enter The Name Of New Layout And Activity"></li></ol>Following these steps will create a new layout and activity on your app which can be edited using AIDE IDE.</li>
-    <li><h3>Adding Permission</h3>If your app uses internet connection to work or needs to read/ write file from sdcard, you need add internet and storage permission respectively for your app in <a href="#a-m">AndroidManifest.xml</a> file, then only your app will be able to connect to the internet or write/ read files from the storage. If your app needs to do any task that require permission but you don't define any permission on manifest file, then your app will not work as expected or crash on start. So, it is compulsory to add permission to the app. Doing this by editing the <b>manifest</b> file is difficult as the AIDE app doesn't provide any hint or autocompletion to add new permission or activity. So, in this case, <b>AIDE Helper</b> can be used to add new permission easily. To add permission on your app, follow these steps.<ol><li>Open <b>AIDE Helper</b> app.</li><li>Select the app on which you want to add permission.<br></li><li>Click on <b>Add Permission</b>.<br><img class="image" src="aide/AIDE Helper Add Permission.jpg" alt="Select The Permission To Add On The App"></li></ol>After providing the app all the permissions it requires, the app will work properly.</li>
-  </ol>
-</div>
-
-<br>
-
-<div>
-  <h2>Android App Development as Professional App Developer</h2>
-  <p>If you have a good knowledge, skills and experience of Android app development and you have a good number of users on your app, then you can get a good income by monetizing your app. The monetization methods includes in-app purchase, paid app, in-app advertisements. You can also work as an Android developer on mobile app development companies with a good salary. In addition, you can also work as a freelancer and build apps for your clients as per their requirement and generate a good income.</p>
-</div>
-
-<br>
-
-<div>
-  <h2>Conclusion</h2>
-  <p>If you want to build your career in the field of Android app development and want to start it on your Android phone, AIDE is the right and only the app which will provide you the friendly and suitable environment for building android apps on your Android phone. No matter whether you are beginner or professional android app developer, you can use AIDE for practicing or building professional apps. So, download the AIDE app right now and start building Android apps on your phone.</p>
-</div>
-
-
-
-
-
-
-
-
-
-
+      <div>
+        <p><b>Yes!</b> You can build awesome Android apps on your Android device using <b>Java</b> and <b>XML</b>. To build the apps, you need to have good knowledge of Java, XML and Android app development. If you are beginner to Android app development, then you can practice building Android apps. You just need is the good knowledge of Java Programming.</p>
+        <p>For building Android apps on mobile phone, there is a free and popular Android IDE called <b>AIDE</b>. It is a free and offline IDE designed to code on Android Device. AIDE can be used for building Java Console Applications, C & C++ Console Applications, Android Apps with Java and XML, Native Android Apps with Java, C++ and XML and many more. If you start building apps on AIDE, the code and skills of AIDE is not limited within this app. You can use the same concept and knowledge on Android Studio which is the official IDE for Android app development that is available on PC. You can run the projects made with AIDE on Android Studio and vice versa without any problems.</p>
+        <p>In this tutorial, we are going to use AIDE for building Android apps with Java and XML.</p>
+      </div>
+      
+      <br>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- DisplayAD1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3563606215113553"
+     data-ad-slot="2024567261"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      
+      <div>
+        <h2>Getting Started</h2>
+        <p>In order to start building Android apps on Android device, first of all, you need to download and install AIDE app. <a href="https://play.google.com/store/apps/details?id=com.aide.ui" target="_blank">Click here</a> to go to Play Store and install AIDE.<br>AIDE also have a premium version which include advanced features like Debugger, APP UI Designer, No Ads, Premium features, etc. <a href="https://dlandroid.com/aide-ide-for-android-java-c-apk" target="_blank">Click here</a> to download the latest AIDE Premium mod APK for free or you can purchase these features within the AIDE app.</p>
+      </div>
+      
+      <br>
+      
+      <div id="create-new">
+        <h2>Creating New Android Project</h2>
+        <p>After the app gets installed successfully on your device, open the app. If you are using the app for the first time, you will see this kind of interface. Click on <b>For Experts</b>.<br><img class="image" src="aide/Code For Experts.jpg" alt="AIDE Code For Experts"><br>Or, if you have opened the app before, you may not see this window. So, if you are in the learning mode, just press <b>&#8592;</b> button on the title bar. Or, if you are already on the <b>Experts</b> mode, click on <b>Create New Project</b>.<br><img class="image" src="aide/Create New Project.jpg" alt="Create New Project In AIDE"></p>
+        <p>After clicking on <b>Create New Project</b>, click on <b>New Android App.</b>.<br><img class="image" src="aide/Create New Android App Project.jpg" alt="Create New Android App Project In AIDE"></p>
+        <p>You need to enter the app information i.e. <b>App Name</b> and <b>Package Name</b>. App Name is the name of your Android app. Package Name is the unique name for Android app.<br><img class="image" src="aide/Project Info.jpg" alt="Enter App Name And Package Name"><br>After entering the app name and package name, click on <b>CREATE</b>. Your new Android project will be created successfully on <b>AppProjects</b> folder of your sdcard.</p>
+      </div>
+      
+      <br>
+      
+      <div>
+        <h2>Important Files To Work On</h2>
+        <p>While building Android apps on AIDE, you need to manage multiple files at a time. Some of them are explained here.</p>
+        <ol>
+          <li><h3>XML Files</h3>XML files in Android Apps are used to represent the important information about the app. There will be number of XML files in the Android app. Some of them are layouts, strings, styles, colors, manifest, etc. Layout XML files represent the User Interface of the app. We define buttons, texts, input fields, checkbox, etc. in the Layout XML file. We can also define the position of a widget in the Layout XML file. Strings XML file represent all the words and sentences used in the app. Colors XML represent useful color codes. Style XML represent app theme and styles. Manifest XML file represents all the information of our app at one file. There are more other XML files which couldn't be explained here as the tutorial is going to be very long.<br><img class="image" src="aide/Blank XML File.jpg" alt="XML File In AIDE"></li>
+          <li><h3>Java Files</h3>Java File is used to set the behaviour of your Android app. If you have defined a button in your XML file, you can set an action when the button is clicked. Similar to HTML and CSS is used to design the page look and JavaScript is used set behaviour of your web page, XML is used for designing your app and Java is used to set behaviour of your app and widgets.<br><img class="image" src="aide/Blank Java File.jpg" alt="Java File In AIDE"></li>
+          <li id="a-m"><h3>AndroidManifest.xml File</h3>AndroidManifest.xml file contains the information about your app like app name, package name, version name and version code, app icon, app theme, permissions used by the app, activities, services, broadcasts, fragments, etc. In other words, we can say AndroidManifest is the file which stores all the information of our app in one file.<br><img class="image" src="aide/Android Manifest File.jpg" alt="Android Manifest XML File In Android App"></li>
+          <li id="b-g"><h3>Build.gradle File</h3>If your Android app uses external libraries, you need to add them in the build.gradle file in order to use the library functions. There will be two build.gradle files in Android app project i.e. Project Level and App Level Grade Files. Project Level Gradle is located on the root directory of Android App Project and App Level gradle file is located on <b>/app</b> directory of your Android app project. We use this while building advanced apps or if you are advanced app developer. If you are just beginner or started practicing Android app development, you don't need to touch this file.<br><img class="image" src="aide/Build Dot Gradle File.jpg" alt="Build Dot Gradle File"></li>
+        </ol>
+      </div>
+      
+      <br>
+      
+      <div>
+        <h2>Building Your First App</h2>
+        <p>After having knowledge of important files while building Android apps, you can start building your first Android app on your phone. So, if you haven't created new project, <a href="#create-new">create</a> it now. After creating a project, open <b>main.xml</b> file to design the User Interface of the app.<br>For demo, I will add a <b>button</b> and give it <b>text</b> and <b>id</b> values as you can see in the image below.<br><img class="image" src="aide/XML UI Designer.jpg" alt="XML APP UI Designer In AIDE"></p>
+        <p>After the UI is ready, now the time comes for main coding i.e. interacting with the XML layout using Java. So, open <b>MainActivity.java</b> file.<br><img class="image" src="aide/New Java File.jpg" alt="New Java File In AIDE"></p>
+        <p>In the Java code, we need to declare the widgets used on the app activity(line 11). After declaring the widget, initialize the widget using the id defined in the main.xml(line 17). After initializing, we will set OnClickListener and display a toast message on clicking a button(line 19 - 28).</p>
+      </div>
+      
+      <br>
+      
+      <div>
+        <h2>Building APK From Code</h2>
+        <p>You can build APK after you have finished coding your app. Your app must not contain any errors to build APK. This IDE provides feature of real-time error checking, so it will display errors as you type. You can check the number of errors on the notification panel. You may also get solution for your the error when you long press on the error message. So, once your code is free from errors, you are ready to build APK. To build APK, press the &#9654; button and it will start building APK of your code. It will take some time to build APK depending on the  code size and number of external libraries used(if any).</p>
+        <p>Once APK is build successfully, you can install it on your phone. On the demo, we have built an app with a button.<br><img class="image" src="aide/Built App.jpg" alt="APK Built With AIDE"></p>
+        <p>While clicking the button, it should display a toast message. As, you can see in the screenshot, it displayed a toast message. Our DemoApp worked successfully.<br><img class="image" src="aide/App Click Button.jpg" alt="Click The Button And See A Toast Message"></p>
+        <p>You can start building your own apps like this. If you are beginner in Android app development, you need a lot of resources to learn for building apps. You can find a lot of tutorial videos on YouTube, articles on the internet, sample programs source codes, e-books, online courses, etc. to learn Android app development. Take any one of them and start learning Android development right away.</p>
+      </div>
+      
+      <br>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- DisplayAD2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3563606215113553"
+     data-ad-slot="6599500540"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      <div>
+        <h2>Using A Library On Your App</h2>
+        <p>If you want to use any external library like play-services, admob, firebase, recycleview or any others, you need to add it in your project. To add it on your app, come back to <b>/AppProjects/{AppName}/app</b> and click on <b>Add to Project...</b>.<img class="image" src="aide/Build Dot Gradle File.jpg" alt="Build Dot Gradle File"></p>
+        <p>As I have explained above, If you are a beginner or you don't use any external library on your app, you don't need to touch the <b><a href="#b-g">build.gradle</a></b> file. So, just understand what is it and when to use this file.</p>
+      </div>
+      
+      <br>
+      
+      <div>
+        <h2>AIDE Helper App</h2>
+        <p>AIDE Helper is a small tool which is very useful while building apps with AIDE. This tool can be used to create new project, add activity and permission to an app. It takes a lot of time to create a layout file with activity file and add it to manifest file and also it is difficult to add permission in manifest file without hint or autocomplete. So, in this case, AIDE Helper is very helpful for doing these actions. <a href="https://play.google.com/store/apps/details?id=com.vicky.aidehelper" target="_blank">Click here</a> to download AIDE Helper app from Play Store. Below is the detailed instruction on how to use AIDE Helper App.</p>
+        <ol>
+          <li><h3>Creating A New Project</h3>To create a new Android project in AIDE, press the <b>+</b> button on the screen.<img class="image" src="aide/AIDE Helper New App Project Created.jpg" alt="New App Project Successfully Created In AIDE"><br>You can open the new project with AIDE and edit the codes.</li>
+          <li><h3>Adding New Layout and Activity</h3>If you want to add a new layout and activity on your app, it will consume a lot of time to do it manually. So, AIDE Helper becomes very useful for doing this as can do this in very less time.<br>To add a new Activity on your app, follow these steps.<ol><li>Open <b>AIDE Helper</b> app.</li><li>Select the app on which you want to add new layout and activity.<br></li><li>Click on <b>Add Activity</b>.<br><img class="image" src="aide/AIDE Helper Add Activity.jpg" alt="Enter The Name Of New Layout And Activity"></li></ol>Following these steps will create a new layout and activity on your app which can be edited using AIDE IDE.</li>
+          <li><h3>Adding Permission</h3>If your app uses internet connection to work or needs to read/ write file from sdcard, you need add internet and storage permission respectively for your app in <a href="#a-m">AndroidManifest.xml</a> file, then only your app will be able to connect to the internet or write/ read files from the storage. If your app needs to do any task that require permission but you don't define any permission on manifest file, then your app will not work as expected or crash on start. So, it is compulsory to add permission to the app. Doing this by editing the <b>manifest</b> file is difficult as the AIDE app doesn't provide any hint or autocompletion to add new permission or activity. So, in this case, <b>AIDE Helper</b> can be used to add new permission easily. To add permission on your app, follow these steps.<ol><li>Open <b>AIDE Helper</b> app.</li><li>Select the app on which you want to add permission.<br></li><li>Click on <b>Add Permission</b>.<br><img class="image" src="aide/AIDE Helper Add Permission.jpg" alt="Select The Permission To Add On The App"></li></ol>After providing the app all the permissions it requires, the app will work properly.</li>
+        </ol>
+      </div>
+      
+      <br>
+      
+      <div>
+        <h2>Android App Development as Professional App Developer</h2>
+        <p>If you have a good knowledge, skills and experience of Android app development and you have a good number of users on your app, then you can get a good income by monetizing your app. The monetization methods includes in-app purchase, paid app, in-app advertisements. You can also work as an Android developer on mobile app development companies with a good salary. In addition, you can also work as a freelancer and build apps for your clients as per their requirement and generate a good income.</p>
+      </div>
+      
+      <br>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- DisplayAD3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3563606215113553"
+     data-ad-slot="6295398817"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      <div>
+        <h2>Conclusion</h2>
+        <p>If you want to build your career in the field of Android app development and want to start it on your Android phone, AIDE is the right and only the app which will provide you the friendly and suitable environment for building android apps on your Android phone. No matter whether you are beginner or professional android app developer, you can use AIDE for practicing or building professional apps. So, download the AIDE app right now and start building Android apps on your phone.</p>
+      </div>
     </section>
     <div class="aside">
-      <div class="atitle">
-        <span>Most Popular</span>
+      <div class="content">
+        <aside class="aone"></aside>
+        <div class="ad aad">
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- DisplayAD3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3563606215113553"
+     data-ad-slot="6295398817"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
+        <aside class="atwo"></aside>
       </div>
-      <aside class="aone">
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-        <div class="aitem">
-          <div class="alogo">
-            <img src="/thumbs/aide.jpg" alt="Create Android App on Your Phone" />
-          </div>
-          <div class="adesc">
-            <span>Build Android Apps with Java and XML using Android Phone</span>
-          </div>
-        </div>
-      </aside>
     </div>
   </div>
+  <div class="ad bad">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- DisplayAD3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3563606215113553"
+     data-ad-slot="6295398817"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  </div>
   <footer>Copyright &copy; BibTech 2021 All Rights Reserved</footer>
+  <script src="/js/index.js"></script>
 </body>
 </html>
