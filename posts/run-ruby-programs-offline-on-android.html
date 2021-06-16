@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <title>BibTech</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="title" content="Run Dart programs Offline On Your Android">
+  <meta name="title" content="Run Ruby programs Offline On Your Android">
   <meta name="description" content="In this blog, you can find information and tutorials regarding mobile apps, tricks, programming, etc.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://blog.bivekoli.com.np/">
-  <meta property="og:title" content="Run Dart programs Offline On Your Android">
+  <meta property="og:title" content="Run Ruby programs Offline On Your Android">
   <meta property="og:image" content="https://blog.bivekoli.com.np/og.png">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://blog.bivekoli.com.np/">
-  <meta property="twitter:title" content="Run Dart programs Offline On Your Android">
+  <meta property="twitter:title" content="Run Ruby programs Offline On Your Android">
   <meta property="twitter:image" content="https://blog.bivekoli.com.np/og.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -37,13 +37,13 @@
   <div class="body">
     <section>
       <div class="cntnt">
-        <h1 class="post-title">Run Dart programs Offline On Your Android</h1>
+        <h1 class="post-title">Run Ruby programs Offline On Your Android</h1>
         <div>
-          <img class="cover"  src="dart/Run Dart On Android.jpg" alt="Run Dart Programs On Android">
+          <img class="cover" src="ruby/Run Ruby On Android.jpg" alt="Run Ruby Programs On Android">
         </div>
         <div>
-          <p><b>Dart</b> is a object-oriented, open source and general purpose Programming Language developed by Google. It is used to build applications for multiple platforms like Mobile, Desktop, Server and Web Application. The main purpose of Dart Programming Language is to create awesome User Interface for Mobile, Desktop and Web Applications using Flutter Framework.</p>
-          <p>In this tutorial, we will focus on how you can Install and Run Dart programs on your Android Device. You will be able to run your Dart programs offline in your Android after following the below steps.</p>
+          <p><b>Ruby</b> is a dynamic, object-oriented, high-level, open source and general purpose interpreted Programming Language. Ruby is mostly used for building web applications. The popular web framework <b>Ruby on Rails</b> is made using Ruby. It is used for Server Side Scripting. Ruby has easy and clean syntax which makes it easy to learn even for a new developer.</p>
+          <p>In this tutorial, we will focus on how you can Install and Run Ruby programs on your Android Device. You will be able to run your Ruby programs offline in your Android after following the below steps.</p>
         </div>
       </div>
       <div class="ad mad">
@@ -60,13 +60,13 @@
       </div>
       <div class="cntnt">
         <div>
-          <h2>Installing Dart on your Android Device.</h2>
+          <h2>Installing Ruby on your Android Device.</h2>
           <ol>
-            <li>In order to run Dart programs on your Android, you need an app called <b>Termux</b>. Install the app from the Play Store.<br><img class="image"  src="dart/Termux Play Store.jpg" alt="Termux App on Play Store"></li>
+            <li>In order to run your Ruby programs on your Android, you need an app called <b>Termux</b>. Install the app from the Play Store.<br><img class="image" src="ruby/Termux Play Store.jpg" alt="Termux App on Play Store"></li>
             <li>After installation is complete, open the app and wait till the app configuration is complete.<blockquote>You need to turn on the internet to download necessary files for Termux during the first launch after app installation or clearing its data.</blockquote></li>
-            <li>After the app's initial configuration is complete, you will see this window.<br><img class="image"  src="dart/Termux App.jpg" alt="Termux App Home"></li>
-            <li>To run Dart programs, you should install Dart package on Termux. Type the following commands in the terminal to install Dart on Termux.<br><code class="cmd-b">$ pkg install dart</code></li>
-            <li>It may take about a minute for installation depending on your internet speed. After installation completes successfully, you can run Dart programs on your Android.</li>
+            <li>After the app's initial configuration is complete, you will see this window.<br><img class="image" src="ruby/Termux App.jpg" alt="Termux App Home"></li>
+            <li>To run Ruby programs, you should install Ruby on Termux. Type the following commands in the terminal to install Ruby in Termux.<br><code class="cmd-b">$ pkg install ruby</code></li>
+            <li>It may take few seconds for installation depending on your internet speed. After installation completes successfully, you can run Ruby programs on your Android.</li>
           </ol>
         </div>
       </div>
@@ -84,13 +84,13 @@
       </div>
       <div class="cntnt">
         <div>
-          <h2>Installing Dart Code Editor in Termux.</h2>
-          <p>To write <b>Dart</b> program, you need to install an Editor. In this tutorial, we will use <b>Micro</b> text editor. It is a good text editor for Termux which has many cool features. It also supports the shortcut keys that are used in PC like <kbd>CTRL</kbd> + <kbd>V</kbd> to <b>Paste the Copied Text</b>, <kbd>CTRL</kbd> + <kbd>S</kbd> to <b>Save File</b>, <kbd>CTRL</kbd> + <kbd>Q</kbd> to <b>Exit/Quit the Editor</b>, etc.</p>
+          <h2>Installing Ruby Code Editor in Termux.</h2>
+          <p>To write <b>Ruby</b> program, you need to install an Editor. In this tutorial, we will use <b>Micro</b> text editor. It is a good text editor for Termux which has many cool features. It also supports the shortcut keys that are used in PC like <kbd>CTRL</kbd> + <kbd>V</kbd> to <b>Paste the Copied Text</b>, <kbd>CTRL</kbd> + <kbd>S</kbd> to <b>Save File</b>, <kbd>CTRL</kbd> + <kbd>Q</kbd> to <b>Exit/Quit the Editor</b>, etc.</p>
           <ol>
             <li>To install <b>Micro Editor</b> on Termux, use the following command.<br><code class="cmd-b">$ pkg install micro</code></li>
-            <li>Once you successfully install the Micro Editor, type the following command to create a new Dart Program.<br><code class="cmd-b">$ micro main.dart</code>Here, <code class="cmd-i">main.dart</code> is the name of the Dart Program. You can use any name for your code in place of <code class="cmd-i">main</code>.</li>
-            <li>After you run the command, you can see an editor where you can write your Dart programs.<br><img class="image"  src="dart/Micro Editor.jpg" alt="Micro Text Editor on Termux"></li>
-            <li>Write the Dart program on the Editor and press <kbd>CTRL</kbd> + <kbd>S</kbd> to Save your program.<br><img class="image"  src="dart/Dart Code.jpg" alt="Dart Code In Micro Editor"></li>
+            <li>Once you successfully install the Micro Editor, type the following command to create a new Ruby Program.<br><code class="cmd-b">$ micro first.rb</code>Here, <code class="cmd-i">first.rb</code> is the name of the Ruby Program. You can use any name for your code in place of <code class="cmd-i">first</code>.</li>
+            <li>After you run the command, you can see an editor where you can write your Ruby programs.<br><img class="image" src="ruby/Micro Editor.jpg" alt="Micro Text Editor on Termux"></li>
+            <li>Write the Ruby program on the Editor and press <kbd>CTRL</kbd> + <kbd>S</kbd> to Save your program.<br><img class="image" src="ruby/Ruby Code.jpg" alt="Ruby Code In Micro Editor"></li>
           </ol>
         </div>
       </div>
@@ -108,11 +108,11 @@
       </div>
       <div class="cntnt">
         <div>
-          <h2>Executing the Dart Programs.</h2>
-          <p>Once you write the <b>Dart</b> program, you need to run it to see its output.<br>To run your Dart code, follow these steps.</p>
+          <h2>Executing the Ruby Programs.</h2>
+          <p>Once you write the <b>Ruby</b> program, you need to run it to see its output.<br>To run your Ruby code, follow these steps.</p>
           <ol>
-            <li>Run the following command on the terminal.<br><code class="cmd-b">$ dart main.dart</code>Here, <code class="cmd-i">main.dart</code> is the name of the <b>Dart</b> program you have created.</li>
-            <li>Once after running the command, you can see its output on the terminal.<br><img class="image"  src="dart/Dart Output.jpg" alt="Output Of the Dart Program"></li>
+            <li>Run the following command on the terminal.<br><code class="cmd-b">$ ruby first.rb</code>Here, <code class="cmd-i">first.rb</code> is the name of the <b>Ruby</b> program you have created.</li>
+            <li>Once after running the command, you can see its output on the terminal.<br><img class="image" src="ruby/Ruby Output.jpg" alt="Output Of the Ruby Program"></li>
           </ol>
         </div>
       </div>
@@ -130,14 +130,14 @@
       </div>
       <div class="cntnt">
         <div>
-          <h2>Writing Dart Programs on External code editor.</h2>
-          <p>Instead of using the <b>Termux Editors</b>, you can also write Dart programs on any one of your favorite Code Editor app and execute them. I am using <b>Acode</b> code editor in this tutorial which is my favorite code editor with many cool features.</p>
-          <p>To write your <b>Dart</b> programs on code editor, follow these steps:</p>
+          <h2>Writing Ruby Programs on External code editor.</h2>
+          <p>Instead of using the <b>Termux Editors</b>, you can also write Ruby programs on any one of your favorite Code Editor app and execute them. I am using <b>Quoda</b> code editor in this tutorial which is my favourite editor with many cool features.</p>
+          <p>To write your <b>Ruby</b> programs on code editor, follow these steps:</p>
           <ol>
-            <li>Download and install any one of your favourite code editor app and create a new file.</li>
-            <li>Write your Dart program on the editor as in the image below.<br><img class="image"  src="dart/Dart Code External File.jpg" alt="Writing Dart Program on Code Editor"></li>
-            <li>Save the file as <code class="cmd-i">&lt;filename&gt;.dart</code>.<br>You can use your desired name for your Dart program in place of <code class="cmd-i">&lt;filename&gt;</code>.<br><blockquote>You should save your file in the root of your sdcard or where you can easily get its location because you need to provide the file location to run your code.</blockquote></li>
-            <li>You are now ready to run your <b>Dart</b> Program.</li>
+            <li>Download any one of your favourite code editor app and create a new file.</li>
+            <li>Write your Ruby program on the editor as in the image below.<br><img class="image" src="ruby/Ruby Code External File.jpg" alt="Writing Ruby Program on Code Editor"></li>
+            <li>Save the file as <code class="cmd-i">&lt;filename&gt;.rb</code>.<br>You can use your desired name for your Ruby program in place of <code class="cmd-i">&lt;filename&gt;</code>.<br><blockquote>You should save your file in the root of your sdcard or where you can easily get its location because you need to provide the file location to run your code.</blockquote></li>
+            <li>You are now ready to run your <b>Ruby</b> Program.</li>
           </ol>
         </div>
       </div>
@@ -155,14 +155,14 @@
       </div>
       <div class="cntnt">
         <div>
-          <h2>Executing Dart programs from external file.</h2>
-          <p>After writing your program, you can run it to see the output. To run your Dart code, follow these steps:</p>
+          <h2>Executing Ruby programs from external file.</h2>
+          <p>After writing your program, you can run it to see the output. To run your Ruby code, follow these steps:</p>
           <ol>
             <li>First of all, you need to provide permission to read and write files from your Internal or External Storage if your Android is Android 6.0(Marshmallow) or later. To provide storage permission to Termux, run the following command in the terminal and click <b>Allow</b> to allow the permission.<br><code class="cmd-b">$ termux-setup-storage</code></li>
             <li>To run the program, you need to get the path of your program file. You can use your file manager and see the details/ properties of the file to see the path.</li>
             <li>Once you have the file path, open Termux app.</li>
-            <li>Type the following command to run your code.<br><code class="cmd-b">$ dart /path/filename.dart</code></li>
-            <li>If your program exist on the given path, it will show output accordingly as shown in the given image.<br><img class="image"  src="dart/Dart Output External File.jpg" alt="Executing Dart Program From External File"></li>
+            <li>Type the following command to run your code.<br><code class="cmd-b">$ ruby /path/filename.rb</code></li>
+            <li>If your program exist on the given path, it will show output accordingly as shown in the given image.<br><img class="image" src="ruby/Ruby Output External File.jpg" alt="Executing Ruby Program From External File"></li>
           </ol>
         </div>
       </div>
@@ -181,7 +181,7 @@
       <div class="cntnt">
         <h2>Conclusion</h2>
         <div>
-          <p>Following this tutorial, you have successfully installed Dart on your Android, and now you can run your Dart programs offline on your Android Device.</p>
+          <p>Following this tutorial, you have successfully installed Ruby in your Android, and now you can run your Ruby programs offline on your Android.</p>
         </div>
       </div>
     </section>
