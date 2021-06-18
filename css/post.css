@@ -75,6 +75,7 @@ img {
 }
 .cmd-b {
   display: block;
+  margin: 3px 0 3px 0;
 }
 .cmd-b, .cmd-i {
   padding: 1px 3px 1px 3px;
