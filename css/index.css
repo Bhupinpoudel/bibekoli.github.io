@@ -93,7 +93,7 @@ a {
   display: none;
 }
 .header .menu-btn:checked ~ .menu {
-  max-height: 240px;
+  max-height: 300px;
 }
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
@@ -257,4 +257,21 @@ footer {
   background: white;
   text-align: center;
   padding: 10px;
+}
+
+textarea {
+  border: 1.5px solid red;
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+button {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+
+.btnn {
+  text-align: center;
 }
