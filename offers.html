@@ -39,10 +39,24 @@
   <div class="body">
     <section>
       <div class="cntnt">
-        <p>Any offer, promo code, redeem code that are currently available will appear here inside this textarea. Copy the code and redeem it in required place.</p>
-        <textarea placeholder="Code will appear here" disabled></textarea>
-        <div class="btnn">
-          <button type="submit">Copy Code</button>
+        <p>Any offer, promo code, redeem code that are currently available will appear here. Copy the code and redeem it in required place.</p>
+        <br>
+        <p>Swift</p>
+        <div class="promoCode">
+          <input type="text" value="(Expired)" disabled />
+          <button type="submit">Copy</button>
+        </div>
+        <br>
+        <p>JS</p>
+        <div class="promoCode">
+          <input type="text" id="js" value="232FVO24OHWP2RY9842SCNKP53QSVMU42WF" disabled />
+          <button type="submit" onclick="copyText(js.value);changeBtnt(this)">Copy</button>
+        </div>
+        <br>
+        <p>PHP</p>
+        <div class="promoCode">
+          <input type="text" id="php" value="1A2WRO53MWK2M3K11OENZ14OS58N1K9K3MN" disabled />
+          <button type="submit" onclick="copyText(php.value);changeBtnt(this)">Copy</button>
         </div>
       </div>
       </section>

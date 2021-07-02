@@ -83,3 +83,21 @@ img {
   background-color: black;
   color: white;
 }
+
+.aone {
+  display: none;
+}
+
+.btnss {
+  display: flex;
+  width: calc(100% - 20px);
+}
+
+.btnss button {
+  margin: 2.5px;
+  color: black;
+  background: gold;
+  font-size: 1.1em;
+  font-family: NunitoExtraBold;
+  width: 50%;
+}

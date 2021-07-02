@@ -259,17 +259,23 @@ footer {
   padding: 10px;
 }
 
-textarea {
-  border: 1.5px solid red;
+.promoCode {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+input[type=text] {
+  border: 1.5px solid black;
   border-radius: 5px;
   width: 100%;
-  height: 200px;
+  padding: 5px;
 }
 
 button {
   border-radius: 5px;
-  height: 30px;
-  width: 200px;
+  width: 60px;
 }
 
 .btnn {

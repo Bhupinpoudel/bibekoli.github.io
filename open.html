@@ -1,0 +1,8 @@
+<script>
+  let url = new URL(window.location.href);
+  let jid = url.searchParams.get("post");
+  let wid = url.searchParams.get("user");
+  sessionStorage.setItem("jid", jid);
+  sessionStorage.setItem("wid", wid);
+  location.href = "/redirect.html";
+</script>
